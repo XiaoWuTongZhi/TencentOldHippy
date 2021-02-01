@@ -1,0 +1,10 @@
+source 'http://git.code.oa.com/hippy/hippy_pod_source.git'
+platform :ios, '8.0'
+
+
+
+target 'HippyDemo' do
+pod 'SSZipArchive'
+#pod 'hippy-ios-lottie', :git => 'https://git.code.oa.com/hippy-contrib/hippy-ios-lottie.git', :branch => 'master'
+
+end

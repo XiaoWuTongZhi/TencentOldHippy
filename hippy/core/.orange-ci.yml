@@ -1,0 +1,5 @@
+master:
+  push:
+    - stages:
+      - name: cpplint job
+        image: csighub.tencentyun.com/hippy/cpplint:latest

@@ -1,0 +1,6 @@
+发版前注意以下事项：
+1.代码中的_RCTSDKVersion参数调整到对应的版本号
+2.hippy.podspec中的参数调整到对应的版本号
+3.README.md文件补充当前版本的feature和bug fix
+4.develop代码合入master线，以master为基准打tag
+5.COCOAPODS_VALIDATOR_SKIP_XCODEBUILD=1 pod repo push hippy_pod_source hippy.podspec --allow-warnings --use-libraries --verbose
