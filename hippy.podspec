@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'hippy'
+  s.name             = 'hippy_old'
   s.version          = '0.4.9.1.test'
   s.summary          = 'hippy lib for ios.'
 
@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://hippy.oa.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pennyli' => 'pennyli@tencent.com' }
-  s.source       = {:git => 'http://git.code.oa.com/TencentMap-iOS-Lib/rn-hippy.git', :tag => s.version, :submodules => true}
+  s.source       = {:git => 'https://github.com/XiaoWuTongZhi/TencentOldHippy.git', :tag => s.version} #:submodules => true
   s.ios.deployment_target = '8.0'
   s.source_files = 'hippy/**/*.{h,m,c,mm,s,cpp,cc}'
   s.exclude_files = ['hippy/core/napi/v8','hippy/core/plugin']
